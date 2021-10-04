@@ -30,6 +30,10 @@ package nw_design_patterns_pkg;
   `nw_include_file(strategy, nw_interface_class_strategy.svh)
   `nw_include_file(strategy, nw_strategy_base.svh)
 
+  `nw_include_file(decorator, nw_decorator_base.svh)
+  `nw_include_file(decorator, nw_decorator_object.svh)
+  `nw_include_file(decorator, nw_decorator_component.svh)
+
 endpackage:nw_design_patterns_pkg
 
 `endif /* __NW_DESIGN_PATTERNS_PKG__ */
